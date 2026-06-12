@@ -1,0 +1,20 @@
+{
+  "id": 11,
+  "name": "Escenario adverso 2",
+  "description": "Prueba de robustez: ruido + ataque Eve + detector limitado.",
+  "mu": 1.0,
+  "prob_base_z_alice": 0.5,
+  "prob_base_z_bob": 0.5,
+  "prob_base_z_eve": 0.5,
+  "fiber_loss_db_per_km": 0.2,
+  "eta_detector": 0.5,
+  "dark_count_prob": 0.01,
+  "bit_flip_p0": 0.01,
+  "bit_flip_pdist": 0.01,
+  "bit_flip_lscale": 20.0,
+  "phase_flip_p0": 0.01,
+  "phase_flip_pdist": 0.01,
+  "phase_flip_lscale": 20.0,
+  "eve_fraction": 0.2,
+  "mu_eve": 1.0
+}

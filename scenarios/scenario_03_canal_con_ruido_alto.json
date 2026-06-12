@@ -1,0 +1,20 @@
+{
+  "id": 3,
+  "name": "Canal con ruido alto",
+  "description": "Zona electromecánica activa: motores y máquinas con ruido eléctrico/fotónico notable.",
+  "mu": 1.0,
+  "prob_base_z_alice": 0.5,
+  "prob_base_z_bob": 0.5,
+  "prob_base_z_eve": 0.5,
+  "fiber_loss_db_per_km": 0.2,
+  "eta_detector": 1.0,
+  "dark_count_prob": 0.0,
+  "bit_flip_p0": 0.05,
+  "bit_flip_pdist": 0.05,
+  "bit_flip_lscale": 20.0,
+  "phase_flip_p0": 0.05,
+  "phase_flip_pdist": 0.05,
+  "phase_flip_lscale": 20.0,
+  "eve_fraction": 0.0,
+  "mu_eve": 1.0
+}
